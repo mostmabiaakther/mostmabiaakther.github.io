@@ -1,0 +1,15 @@
+{
+  "name": "Most Mabia Akther — Educator & Researcher",
+  "short_name": "Mabia Akther",
+  "description": "Academic and professional portfolio of Most Mabia Akther, an educator, facilitator and researcher based in Dhaka, Bangladesh.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#f5f1e8",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

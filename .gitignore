@@ -1,0 +1,7 @@
+# Local browser-audit output
+.edge-audit/
+.audit-*.png
+
+# Operating-system files
+.DS_Store
+Thumbs.db
