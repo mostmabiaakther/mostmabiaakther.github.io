@@ -39,13 +39,12 @@ npx serve .
 ## Before publishing
 
 - Confirm that every photograph and document is approved for public display, especially images showing students or third-party signatures/contact information.
-- After GitHub Pages provides the final URL, add it as a canonical URL and use an absolute URL for the social-sharing image in `index.html`. For example (replace the placeholder with the real address):
-  `<link rel="canonical" href="https://YOUR-USER.github.io/YOUR-REPO/">`, `<meta property="og:url" content="https://YOUR-USER.github.io/YOUR-REPO/">` and `<meta property="og:image" content="https://YOUR-USER.github.io/YOUR-REPO/images/og-share.jpg">` (also update `twitter:image`).
+- Live site: https://mostmabiaakther.github.io/ (the canonical URL, `og:url` and share-image URLs in `index.html` already point here).
 - Test the live email link and review the portfolio text for any future academic or role updates.
 
 ## Features
 
-- Responsive layouts for phone, tablet and desktop (checked at 360, 768, 1024 and 1440 px)
+- Responsive layouts for phone, tablet and desktop (checked at every width from 280 to 2560 px, landscape phones, and 125/150/200% zoom)
 - Refined two-family type system (Fraunces display serif + Instrument Sans), self-hosted woff2 with `font-display: swap` and a fluid `clamp()` type scale
 - One consistent inline SVG icon set (Lucide style) for navigation, section headers, timeline, experience, research, honours, contact and lightbox controls
 - Motion: hero entrance, staggered scroll reveals, hover depth on cards and a count-up on the 3.90 grade. All of it is switched off under `prefers-reduced-motion`
